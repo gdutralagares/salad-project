@@ -1,0 +1,100 @@
+<!--https://www.youtube.com/watch?v=P6YQUAWJbwc-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chilly Bowl</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+
+</head>
+<body>
+  <section class="sub-header"> 
+    <nav>
+      <a href="index.html"><img src="images/logo.png" ></a>
+      <div class="nav-links1" id="navLinks">
+        <i class="lni lni-close" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">INÍCIO</a></li>
+          <li><a href="sobre.html">SOBRE</a></li>
+          <li><a href="saladas.html">SALADAS</a></li>
+
+          <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+      </div>
+      <i class="lni lni-menu" onclick="showMenu()"></i>
+    </nav>
+    <h1>Saladas</h1>
+
+  </section>
+<!--Salada-->
+<section class="salada">
+  <h1>Saladas Populares</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+  <div class="row">
+    <div class="salada-col">
+      <h3>Salada de Abacate</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint laudantium possimus veritatis obcaecati, perspiciatis saepe itaque reiciendis a corporis adipisci esse dolore sapiente quod qui quidem eum placeat corrupti dignissimos!</p>
+    </div>
+    <div class="salada-col">
+      <h3>Salada de Frango</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint laudantium possimus veritatis obcaecati, perspiciatis saepe itaque reiciendis a corporis adipisci esse dolore sapiente quod qui quidem eum placeat corrupti dignissimos!</p>
+    </div>
+    <div class="salada-col">
+      <h3>Salada Chilly</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint laudantium possimus veritatis obcaecati, perspiciatis saepe itaque reiciendis a corporis adipisci esse dolore sapiente quod qui quidem eum placeat corrupti dignissimos!</p>
+    </div>
+  </div>
+</section>
+
+<!--Facilites-->
+<section class="facilities">
+  <div class="row">
+    <div class="facilities-col">
+      <img src="images/image-removebg-preview (1) 1.png" alt="">
+    </div>
+    <div class="facilities-col">
+      <img src="images/image-removebg-preview (2) 1.png" alt="">
+    </div>
+    <div class="facilities-col">
+      <img src="images/image-removebg-preview (3) 1.png" alt="">
+    </div>
+  </div>
+</section>
+
+<!--footer-->
+<section class="footer">
+  <h4>Sobre</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minima id temporibus. <br>Libero quo, sed veritatis facilis tenetur suscipit reprehenderit dolore dignissimos quia tempora velit, quasi quaerat mollitia earum nobis!
+  </p>
+  <div class="icons">
+    <i class="lni lni-facebook-fill"></i>
+    <i class="lni lni-twitter-fill"></i>
+    <i class="lni lni-instagram-fill"></i>
+    <i class="lni lni-linkedin"></i>
+  </div>
+</section>
+
+
+
+
+
+<!-- Java script for Toggle Menu-->
+  <script>
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-200px";
+    }
+
+
+  </script>
+</body>
+</html>
