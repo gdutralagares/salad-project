@@ -7,12 +7,10 @@
 .header{
   min-height: 100vh;
   width: 100%;
-
-}
-.header img{
-  border-radius: 5px;
-  width: 70%;
-
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 nav{
@@ -35,7 +33,7 @@ nav img{
   position: relative;
 }
 .nav-links ul li a{
-  color: #000000;
+  color: #fff;
   text-decoration: none;
   font-size: 13px;
 }
@@ -52,15 +50,10 @@ nav img{
   width: 100%;
 }
 .text-box{
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background3.jpg);
-  padding-top: 100px;
-  padding-bottom: 100px;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
+  width: 90%;
   color: #fff;
   position: absolute;
-  top: 46%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
