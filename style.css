@@ -171,7 +171,7 @@ h3{
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .local-col{
   flex-basis: 32%;
@@ -254,7 +254,7 @@ h3{
 .avaliacao-col{
   flex-basis: 44%;
   border-radius: 10px;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   text-align: left;
   background: #d9f6d2;
   padding: 25px;
