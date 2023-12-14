@@ -94,12 +94,12 @@ nav .lni{
   .text-box h1{
     font-size: 40px;
   }
-  .nav-links ul li{
+  .nav-links  ul li{
     display: block;
   }
   .nav-links{
     position: fixed;
-    background: #f44336;
+    background: #3eab1d;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -225,8 +225,6 @@ h3{
   display: inline-block;
   margin-left: 180px;
 
-
-
 }
 .examples-col{
   flex-basis: 31%;
@@ -242,7 +240,12 @@ h3{
   display:flex;
   justify-content:space-between; 
 }
-
+@media(max-width: 700px){
+  .examples{
+    margin-left: 50px;
+    padding-top: 10%;
+}
+}
 /*avaliacao*/
 .avaliacao{
   width: 80%;
@@ -480,30 +483,10 @@ h3{
   box-sizing: border-box;
 
 }
-.nav-links1{
-  flex: 1;
-  text-align: right;
+
+@media(max-width: 700px){
+  .contact-col div h5{
+    font-size: 18px;
+  }
 }
-.nav-links1 ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
-}
-.nav-links1 ul li a{
-  color: #fff;
-  text-decoration: none;
-  font-size: 13px;
-}
-.nav-links1 ul li::after{
-  content: '';
-  width: 0%;
-  height: 2px;
-  background: #62f436;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-.nav-links1 ul li:hover::after{
-  width: 100%;
-}
+
