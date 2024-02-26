@@ -179,6 +179,7 @@ h3{
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 
 }
 .local-col img{
@@ -192,11 +193,11 @@ h3{
   width: 80%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 40px;
   transition: 0.5s;
 }
 .layer:hover{
-  background: rgba(105, 180, 0, 0.7);
+  background: rgba(105, 180, 0, 0.4);
   border-radius: 10px;
   height: 80%;
   width: 80%;
@@ -354,6 +355,7 @@ h3{
   padding: 5px 2px;
 }
 .sobre-col img{
+  margin-top: 160px;
   width: 80%;
 }
 .sobre-col h1{
