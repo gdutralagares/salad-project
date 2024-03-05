@@ -124,12 +124,12 @@ nav .lni{
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 20px;
 }
 h1{
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 600;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 p{
   color: #777;
@@ -171,12 +171,12 @@ h3{
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 .local-col{
   flex-basis: 32%;
   border-radius: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -225,6 +225,7 @@ h3{
   margin: auto;
   display: inline-block;
   margin-left: 180px;
+  padding-top: 0px;
 
 }
 .examples-col{
@@ -253,7 +254,12 @@ h3{
   margin: auto;
   text-align: center;
   padding-top: 0px;
-
+}
+.avaliacao p{
+  font-size: 16px;
+}
+.avaliacao-col p{
+  font-size: 14px;
 }
 .avaliacao-col{
   flex-basis: 44%;
